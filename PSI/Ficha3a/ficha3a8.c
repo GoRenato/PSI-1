@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int intervalo(int x, int lim_inf, int lim_sup)
+int intervalo(int x, int lim_inf, int lim_sup) o pokas e paneleiro
 {
   if(x>=lim_inf && x<=lim_sup) printf("O x esta no intervalo\n");
   else printf("O x nao esta no intervalo\n");
